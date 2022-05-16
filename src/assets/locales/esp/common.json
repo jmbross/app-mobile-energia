@@ -1,0 +1,884 @@
+{
+  "common": {
+    "languages": [
+      {
+        "eng": "ENGLISH"
+      },
+      {
+        "esp": "ESPAÑOL"
+      },
+      {
+        "cn": "简体"
+      }
+    ],
+    "generalButtons": {
+      "next": "Siguiente",
+      "continue": "Continuar",
+      "noThanks": "No, gracias",
+      "tryAgain": "Vuelve a intentarlo",
+      "skip": "Salta al siguiente",
+      "submit": "Enviar",
+      "change": "Cambiar",
+      "remove": "Eliminar",
+      "save": "Guardar",
+      "ok": "OK"
+    },
+    "validations": {
+      "firstName": {
+        "title": "Nombre",
+        "placeholder": "Nombre"
+      },
+      "lastName": {
+        "title": "Apellido",
+        "placeholder": "Apellido"
+      },
+      "businessName": {
+        "title": "Apodo de la empresa",
+        "placeholder": "Apodo de la empresa"
+      },
+      "email": {
+        "title": "Correo electrónico",
+        "placeholder": "Correo electrónico"
+      },
+      "zipCode": {
+        "title": "Código postal",
+        "placeholder": "Código postal"
+      },
+      "homeNickname": {
+        "title": "Apodo del hogar",
+        "placeholder": "Apodo del hogar"
+      },
+      "businessNickname": {
+        "title": "Apodo de la empresa",
+        "placeholder": "Apodo de la empresa"
+      },
+      "siteNickname": {
+        "title": "Sobrenombre del sitio",
+        "placeholder": "Sobrenombre del sitio"
+      },
+      "utilityAccount": {
+        "title": "Utility account",
+        "placeholder": "Utility account #"
+      },
+      "phone": {
+        "title": "Your Phone #",
+        "placeholder": "Your Phone #"
+      },
+      "lastNameAccountHolder": {
+        "title": "Apellido",
+        "placeholder": "Apellido (titular de la cuenta)"
+      },
+      "smsPhone": {
+        "title": "Teléfono SMS",
+        "placeholder": "Teléfono SMS"
+      },
+      "phoneNumber": {
+        "title": "Número de teléfono",
+        "placeholder": "Número de teléfono"
+      },
+      "password": {
+        "title": "Password",
+        "placeholder": "Password"
+      },
+      "changePassword": {
+        "title": "Cambiar contraseña",
+        "placeholder": "Cambiar contraseña"
+      },
+      "referralName": {
+        "title": "Nombre (opcional)",
+        "placeholder": "Nombre (opcional)"
+      },
+      "referralEmail": {
+        "title": "El correo electrónico de la persona (opcional)",
+        "placeholder": "El correo electrónico de la persona (opcional)"
+      },
+      "referralPhoneNumber": {
+        "title": "Su número de teléfono (opcional)",
+        "placeholder": "Su número de teléfono (opcional)"
+      },
+      "otherSpecify": {
+        "title": "Por favor especifique (opcional)",
+        "placeholder": "Por favor especifique (opcional)"
+      }
+    }
+  },
+  "programs": {
+    "olivine_energy": {
+      "title": "Olivine Energy Program",
+      "support": {
+        "email": "ask@olivinecommunity.com"
+      },
+      "availableProgramScreen": {
+        "description": "<p>Únase al ecosistema de energía limpia e inscriba su hogar o pequeña empresa en el Programa de Energía de Olivine. Su participación apoyará la resistencia de la red y el aire limpio en todo California, ayudando a evitar el uso de plantas pico que queman gas y contaminan.</p>\n<p><b>Beneficios de la inscripción</b></p>\n<p>Infórmese sobre su consumo de energía y cómo acciones pequeñas pueden marcar una diferencia. Olivine también le ayudará a identificar y obtener acceso a incentivos o reembolsos que usted podría aprovechar.</p>\n<p><b>Beneficios de la participación</b></p>\n<p>No importa dónde viva en California, todos tienen el derecho de respirar aire limpio. Cuando haya una alta demanda en la red o altas emisiones de carbono, le enviaremos notificaciones para participar en Eventos de Ahorro de Energía. Su participación en estos eventos ayudará a ahorrar energía, reducir sus facturas y apoyar el aire limpio para todos los californianos. Mediante nuestra Aplicación podrá darle seguimiento al impacto de su participación en la energía y en el medio ambiente. La participación en cualquiera de estos eventos de ahorro de energía es completamente voluntaria.</p>\n<p>Sus acciones ayudarán a apoyar el trabajo de gobiernos locales, organizaciones benéficas y organizaciones sin fines de lucro que se enfocan en luchar contra el cambio climático, promover el aire limpio y ayudar a los habitantes con ingresos bajos. Por su participación Olivine hará una donación a la Coalición para el Aire Limpio (Coalition for Clean Air):<a href='https://www.ccair.org/' target='_blank'>www.ccair.org</a></p>\n<p>No hay ninguna obligación y la participación es gratuita. Inscríbase hoy y marque la diferencia. Solo se puede inscribir una persona por hogar.</p>\n<p>La Programa de Energía de Olivine es un programa de la Comunidad de Olivine™.</p>",
+        "terms": "<p>He leído y estoy de acuerdo con los <a href='https://app.olivineinc.com/content/es/OlivineEnergyProgramTerms.html' target='_blank'>Términos y Condiciones</a>del Programa de Energía de Olivine y el <a href='https://app.olivineinc.com/content/es/OlivineCommunityPA.html' target='_blank'>Acuerdo de Participación de Olivine</a></p>",
+        "more": "<p>Hay más información disponible en el <a href='https://olivinecommunity.com' target='_blank'>sitio web de la programa</a>.</p>"
+      },
+      "connectToUtilityScreen": {
+        "information": "Para usar esta aplicación, necesita conectarse con su empresa de servicios públicos para obtener la información de su cuenta y sus datos de energía. Al hacer clic en 'Conectar', pasará al sitio web de su empresa de servicios públicos para terminar este proceso.",
+        "utilities": [
+          {
+            "PGE": "PG&E"
+          },
+          {
+            "SCE": "SCE"
+          },
+          {
+            "SDGE": "SDG&E"
+          }
+        ]
+      },
+      "singleSurveyScreen": {
+        "placeholder": "Por favor escoja una",
+        "question": "¿Cómo se enteró de este programa?",
+        "code": "HEAR",
+        "answers": [
+          {
+            "referral": "From a referral"
+          },
+          {
+            "REF-GRID": "GRID Alternatives"
+          },
+          {
+            "REF-FHA": "Fresno Housing Authority"
+          },
+          {
+            "REF-UW": "United Way"
+          },
+          {
+            "REF-CCAT": "CCAT"
+          },
+          {
+            "REP": "Local utility or representative"
+          },
+          {
+            "SM": "Social media"
+          },
+          {
+            "TELE": "Telemarketing"
+          },
+          {
+            "EMAIL": "Email"
+          },
+          {
+            "FLYER": "Flyer"
+          },
+          {
+            "EVENT": "An event"
+          },
+          {
+            "MAIL": "Postcard mailing"
+          },
+          {
+            "other": "Other"
+          }
+        ],
+        "referral_WarningText": "Por favor ingrese el nombre y correo electrónico de la persona que le dio la recomendación para que ella pueda recibir su bonificación de $20. Hay premios por enviarnos clientes para miembros inscritos en el programa."
+      },
+      "savingsEventsScreen": {
+        "ideas": ["airCond", "lamp", "washer", "monitor", "plug"]
+      }
+    },
+    "gbc": {
+      "title": "La aplicación solamente",
+      "support": {
+        "email": "ask@olivinecommunity.com"
+      },
+      "availableProgramScreen": {
+        "description": "<p>Usted ha optado por no inscribirse en ningún programa hoy. No hay problema, ¡todavía puede usar esta aplicación para ver su propio consumo de energía y para enterarse de programas futuros!</p><p>Si cambia de parecer, por favor haga clic en la flecha de retroceso para inscribirse en un programa.</p>",
+        "more": ""
+      },
+      "connectToUtilityScreen": {
+        "information": "Para usar esta aplicación, necesita conectarse con su empresa de servicios públicos para obtener la información de su cuenta y sus datos de energía. Al hacer clic en 'Conectar', pasará al sitio web de su empresa de servicios públicos para terminar este proceso.",
+        "utilities": [
+          {
+            "PGE": "PG&E"
+          },
+          {
+            "SCE": "SCE"
+          }
+        ]
+      },
+      "savingsEventsScreen": {
+        "ideas": ["airCond", "lamp", "washer", "heater", "microwave"]
+      }
+    },
+    "fresno": {
+      "title": "Olivine Energy Program",
+      "support": {
+        "email": "ask@fresnoenergyprogram.com"
+      },
+      "availableProgramScreen": {
+        "description": "<p>Únase a su comunidad y gane dinero por ahorrar electricidad en su hogar. Este programa está disponible para todos los habitantes de Fresno sur-central que viven en estos códigos postales:</p>\n<p>93701, 93702, 93703, 93704, 93706, 93721, 93725 y 93728.</p>\n<p>Se le paga por participar en Eventos de Energía y en encuestas. Este programa es gratuito y no hay compromiso.</p>\n<p><b>EEventos de Ahorro de Energía (hasta $50)</b></p>\n<p>Tome medidas simples para ahorrar energía.</p>\n<p><b>Encuesta sobre la Experiencia del Cliente ($30)</b></p>\n<p>Denos retroalimentación sobre su experiencia al participar.</p>\n<p>Las recompensas y la inscripción están limitadas a un máximo de una persona por hogar.</p>\n<p>Programa de Energía de Fresno es un programa de la Comunidad de Olivine™.</p>",
+        "terms": "<p>He leído y estoy de acuerdo con los <a href='https://app.olivineinc.com/content/es/FresnoEnergyProgramTerms.html' target='_blank'>Términos y Condiciones</a>del Programa de Energía de Fresno y del <a href='https://app.olivineinc.com/content/es/OlivineCommunityPA.html' target='_blank'>Acuerdo de Participación de Olivine</a></p>",
+        "more": "<p>Hay más información disponible en el <a href='https://fresnoenergyprogram.com/es/inicio/' target='_blank'>sitio web de la programa</a>.</p>"
+      },
+      "connectToUtilityScreen": {
+        "information": "Para continuar con la inscripción, necesitamos la información de su cuenta de servicios públicos, que PG&E proporciona. Al hacer clic en 'Conectar', pasará al sitio web de PG&E para terminar la inscripción en el programa.",
+        "utilities": [
+          {
+            "PGE": "PG&E"
+          }
+        ]
+      },
+      "singleSurveyScreen": {
+        "placeholder": "Por favor escoja una",
+        "question": "¿Cómo se enteró de este programa?",
+        "code": "HEAR",
+        "answers": [
+          {
+            "referral": "From a referral"
+          },
+          {
+            "REF-GRID": "GRID Alternatives"
+          },
+          {
+            "REF-FHA": "Fresno Housing Authority"
+          },
+          {
+            "REF-UW": "United Way"
+          },
+          {
+            "REF-CCAT": "CCAT"
+          },
+          {
+            "REP": "Local utility or representative"
+          },
+          {
+            "SM": "Social media"
+          },
+          {
+            "TELE": "Telemarketing"
+          },
+          {
+            "EMAIL": "Email"
+          },
+          {
+            "FLYER": "Flyer"
+          },
+          {
+            "EVENT": "An event"
+          },
+          {
+            "MAIL": "Postcard mailing"
+          },
+          {
+            "other": "Other"
+          }
+        ],
+        "referral_WarningText": "Por favor ingrese el nombre y correo electrónico de la persona que le dio la recomendación para que ella pueda recibir su bonificación de $20. Hay premios por enviarnos clientes para miembros inscritos en el programa."
+      },
+      "dashboardScreen": {
+        "pending": {
+          "earn": "Gana un bono de referencia de $ 40 por cada persona, límite de 10.",
+          "email": {
+            "subject": "Join this program with me and earn money",
+            "body": "<p>You have been referred by your friend</p><p>{{email}} to enroll into the Fresno Energy Program! Please go to the <a href='https://app.olivinecommunity.com'>Olivine ClimateResponse™ App</a> and complete the Sign Up steps by December 31st and earn a $50 reward for enrolling + up to $250 for participation!</p><p>Questions?</p><p>Please visit our website at <a href='https://www.fresnoenergyprogram.com'>Fresno Energy Program</a></p><p>Or contact us by calling 1-866-482-8472</p><p>or by email at <a href='mailto:powerresponse@cleanpoweralliance.org'>ask@fresnoenergyprogram.com</a></p>"
+          },
+          "sms": {
+            "subject": "Join this program with me and earn money",
+            "body": "You have been referred by your friend {{email}} to enroll into the Fresno Energy Program! Please go to the Olivine ClimateResponse™ App (https://app.olivinecommunity.com) and complete the Sign Up steps by December 31st and earn a $50 reward for enrolling + up to $250 for participation!\nQuestions?\nPlease visit our website at Fresno Energy Program (https://www.fresnoenergyprogram.com/) \nOr contact us by calling 1-866-482-8472 \nor by email at ask@fresnoenergyprogram.com"
+          }
+        }
+      },
+      "savingsEventsScreen": {
+        "ideas": ["airCond", "lamp", "washer", "monitor", "plug"]
+      }
+    },
+    "scp": {
+      "title": "SCP GridSavvy Program",
+      "support": {
+        "email": "gridsavvy@sonomacleanpower.org"
+      },
+      "verificationScreen": {
+        "description": "You may be an SCP customer. Please enter the information below to verify your status and enroll in the GridSavvy program. You can find this information on your electricity bill. If you don’t know your PG&E account number, please call 1 (800) 743-5000 for assistance.",
+        "accountNumber": "Why do you need my PG&E account number?",
+        "modalAccountNumber": {
+          "title": "Attention:",
+          "description": "Sonoma Clean Power and PG&E work in partnership to bring you electricity. As an SCP customer, SCP procures the power sources for the energy you use in your home or business, while PG&E manages billing and the maintenance of the poles and wires that get that electricity to you. Thanks to public power programs like SCP, customers now have a choice to receive a cleaner mix of energy sources and keep more money in our local community.",
+          "ok": "Close"
+        }
+      },
+      "notVerifiedScreen": {
+        "description": "You cannot be verified as a SCP customer. If you believe this is in error, please call 800-743-5000 so we can help you complete enrollment."
+      },
+      "availableProgramScreen": {
+        "description": "<p>Thank you for your interest in joining Sonoma Clean Power’s GridSavvy Community. Your participation  allows Sonoma Clean Power to power more Sonoma and Mendocino county homes with clean, renewable energy while making energy savings easy for you.  This may seem  small, but together we can turn the tide on the climate crisis.</p>\n<p><b>Participation Benefits</b></p>\n<p>In times of high stress on the electricity grid, you will be asked to adjust your energy usage for a period of time, usually one to two hours. You will earn $1 for every GridSavvy Community event that you choose to participate in. Once per calendar quarter, you will have the opportunity to cash out your rewards or donate your balance to one of our local charity partners.</p>\n<p>Participation is free and completely voluntary. Sign up today and start earning!</p>",
+        "terms": "<p>I have read and agree to the <a href='https://app.olivineinc.com/content/en/SCPGridSavvyProgramTerms.html' target='_blank'>Terms and Conditions</a>of theSCP GridSavvy Program and the <a href='https://app.olivineinc.com/i/011/SonomaCleanPower/GridSavvyParticipationAgreement' target='_blank'>Participation Agreement</a></p>",
+        "more": "<p>More info available on the <a href='https://sonomacleanpower.org/programs/gridsavvy' target='_blank'>program website</a>.</p>"
+      },
+      "connectToUtilityScreen": {
+        "information": "To continue with enrollment, we need your utility account information which is provided by PG&E. By clicking ‘Connect’, you will be directed to your utility website to complete program enrollment.",
+        "utilities": [
+          {
+            "PGE": "PG&E"
+          }
+        ]
+      },
+      "singleSurveyScreen": {
+        "placeholder": "Please choose one",
+        "question": "How did you hear about this program?",
+        "code": "HEAR",
+        "answers": [
+          {
+            "referral": "From a referral"
+          },
+          {
+            "ref1": "The Climate Center"
+          },
+          {
+            "ref2": "North Coast Resource Conservation & Development Council"
+          },
+          {
+            "ref3": "Mendocino Land Trust"
+          },
+          {
+            "ref4": "CTE Foundation"
+          }
+        ],
+        "referral_WarningText": "Please enter referrer's name and email below so they can get their $20 bonus. Referral rewards available to one person per household."
+      },
+      "webStoreScreen": {
+        "title": "Visit the Web Store",
+        "description": "GridSavvy customers can earn rebates and a $5/month bill credit for purchasing smart devices like smart thermostats, EV charging stations, and heat pump water heaters and connecting them to the GridSavvy Community. You can also connect your existing smart device into the GridSavvy Community to start earning.",
+        "links": [
+          {
+            "Purchase a Device": "https://app.olivineinc.com/i/011/SonomaCleanPower/CustomerEnroll"
+          },
+          {
+            "Connect a Device": "https://app.olivineinc.com/i/011/SonomaCleanPower/CustomerEnroll?mode=byo"
+          }
+        ]
+      },
+      "dashboardScreen": {
+        "pending": {
+          "earn": "Earn a $40 referral bonus for each person, limit 10.",
+          "email": {
+            "subject": "Join this program with me and earn money",
+            "body": "<p>You have been referred by your friend</p><p>{{email}} to enroll into the Fresno Energy Program! Please go to the <a href='https://app.olivinecommunity.com'>Olivine ClimateResponse™ App</a> and complete the Sign Up steps by December 31st and earn a $50 reward for enrolling + up to $250 for participation!</p><p>Questions?</p><p>Please visit our website at <a href='https://www.fresnoenergyprogram.com'>Fresno Energy Program</a></p><p>Or contact us by calling 1-866-482-8472</p><p>or by email at <a href='mailto:powerresponse@cleanpoweralliance.org'>ask@fresnoenergyprogram.com</a></p>"
+          },
+          "sms": {
+            "subject": "Join this program with me and earn money",
+            "body": "You have been referred by your friend {{email}} to enroll into the Fresno Energy Program! Please go to the Olivine ClimateResponse™ App (https://app.olivinecommunity.com) and complete the Sign Up steps by December 31st and earn a $50 reward for enrolling + up to $250 for participation!\nQuestions?\nPlease visit our website at Fresno Energy Program (https://www.fresnoenergyprogram.com/) \nOr contact us by calling 1-866-482-8472 \nor by email at ask@fresnoenergyprogram.com"
+          }
+        }
+      },
+      "savingsEventsScreen": {
+        "ideas": ["airCond", "lamp", "washer", "monitor", "plug"]
+      }
+    }
+  },
+  "screens": {
+    "auth": {
+      "welcomeScreen": {
+        "title": "Bienvenido",
+        "changeLanguage": "Cambiar de idioma",
+        "getStarted": "Inicio",
+        "continue": "Continuar",
+        "signIn": "Iniciar sesión",
+        "logout": "Cerrar sesión",
+        "welcome": {
+          "title": "Olivine ClimateResponse™",
+          "description": "Únase gratuitamente a ClimateResponse™ y obtenga acceso a programas locales de energía. Use el poder de trabajar juntos para ahorrar energía, reducir la contaminación y ganar dinero.",
+          "mobileApp": "Para usuarios de la aplicación móvil, asegúrese de descargar la aplicación a su aparato móvil haciendo clic en los enlaces a continuación."
+        }
+      }
+    },
+    "errorScreen": {
+      "404": {
+        "title": "Error: 404 Page Not Found",
+        "description": "You’re either misspelling the URL\nor requesting a page that’s no longer here.",
+        "goBack": "Back to dashboard"
+      },
+      "data": {
+        "title": "Lo sentimos . .",
+        "description": "Ocurrió un error al obtener información de la red. Por favor inténtelo de nuevo."
+      }
+    },
+    "enrollment": {
+      "startRegisterScreen": {
+        "title": "¡Gracias por registrarse!",
+        "description": "Ahora vamos a hacer algunas preguntas para ver si tenemos algún programa de ahorro de energía para usted"
+      },
+      "profileSetupScreen": {
+        "title": "Configuración de perfil"
+      },
+      "locationSetupScreen": {
+        "title": "Configuración del lugar",
+        "business": "Esta es una empresa",
+        "modalZipcode": {
+          "title": "Por favor confirmar",
+          "description": "¿Es '{{zipcode}}' su código postal correcto?",
+          "ok": "Si",
+          "cancel": "Volver a entrar en"
+        }
+      },
+      "selectUtilityScreen": {
+        "title": "Selecciona tu proveedor de energía"
+      },
+      "modalNoPrograms": {
+        "ok": "Cerrar",
+        "title": "",
+        "descriptionNoUtility": "Por el momento no tenemos programas disponibles para tu area.",
+        "description": "Por el momento no tenemos programas disponibles para tu los clientes de {{utility}}. Prueba la aplicación de Olivine ClimateResponse™ para otras opciones de programas."
+      },
+      "findProgramScreen": {
+        "title": "Buscar programa",
+        "description": "Hemos identificado al menos una opción del programa de ahorro energético para usted. Haga clic en Siguiente para obtener más información"
+      },
+      "verificationScreen": {
+        "title": "Verificación de {{program}}",
+        "modalVerification": {
+          "title": "Atención:",
+          "description": "跳过验证意味着您将无法获得{{program}}计划的特殊优惠。",
+          "ok": "Regresar a verificación",
+          "cancel": "Muéstreme otras opciones"
+        }
+      },
+      "notVerifiedScreen": {
+        "title": "Verificación de {{program}}"
+      },
+      "phoneNumberScreen": {},
+      "programListScreen": {
+        "title": "¡Muy buenas noticias! ¡Usted reúne los requisitos para los programas de {{program}}!",
+        "description": "Por favor escoja una de las siguientes opciones para aprender sobre el programa; siempre podra regresar aquí si desea aprender sobre ambas opciones.",
+        "modalProgramList": {
+          "title": "Atención:",
+          "description": "Para recibir los beneficios del programa de {{program}}, debe elegir una opción de programa.",
+          "ok": "Seleccionar programa",
+          "cancel": "Muéstreme otras opciones"
+        }
+      },
+      "availableProgramScreen": {},
+      "connectToUtilityScreen": {
+        "title": "Conectar con la empresa de servicios públicos",
+        "later": "Lo haré más tarde"
+      },
+      "multiplepleSurveyScreen": {},
+      "singleSurveyScreen": {}
+    },
+    "main": {
+      "dashboard": {
+        "dashboardScreen": {
+          "title": "Tablero",
+          "inComplete": {
+            "title": "Complete el proceso de autorización de servicios públicos para comenzar a ganar incentivos."
+          },
+          "inProgress": {
+            "title": "¡Gracias por terminar el proceso de inscripción!",
+            "description": "Puede tomar varios días para que los datos de su medidor aparezcan en la aplicación. Por favor revise periódicamente."
+          },
+          "pending": {
+            "title": "¡Recomiende a sus amigos!",
+            "shareLinkVia": "Compartir enlace a través de",
+            "email": "EMAIL",
+            "sms": "SMS"
+          },
+          "recentEnergyHistory": {
+            "title": "HISTORIAL RECIENTE DE ENERGÍA",
+            "graph": {
+              "legend": {
+                "lastWeek": "La semana pasada",
+                "thisWeek": "Esta semana"
+              }
+            },
+            "usage": {
+              "typical": "TÍPICO {{day}}",
+              "highest": "MÁS ALTO/LA SEMANA PASADA",
+              "lowest": "MÁS BAJO/LA SEMANA PASADA"
+            },
+            "noData": "Puede tardar varios días para que los datos de su medidor aparezcan en la aplicación. Por favor revise periódicamente.",
+            "modalEnergyHistory": {
+              "title": "Historial de energía",
+              "description": "<p><span>¿Qué es un kWh?</span><br>Un kWh (kilovatio-hora o 1,000 vatios-hora) es una medida de cuánta electricidad se usa y equivale a la cantidad de energía consumida por un aparato de 1,000 vatios usado por una hora.</p><p><span>¿Qué es un día Típico?</span><br>Un día Típico, como un “Viernes Típico” se refiere a la cantidad de electricidad que usted generalmente consume ese día de la semana.</p><p><span>¿Por qué no hay datos de consumo de los últimos dos días?</span><br>Toma como 2 días para que su empresa de servicios públicos proporcione los datos de su medidor eléctrico, por lo cual sus datos más recientes de “Esta Semana” no incluyen normalmente los datos de los últimos 2 días. Pueden faltar datos de otros días y eso está bien.  La empresa de servicios públicos los proporcionará después.</p><p><span>¿Qué es Más Alto y Más Bajo / Semana Pasada?</span><br>Más Alto / Semana Pasada es el día durante la semana anterior en el que consumió la mayor cantidad de electricidad. La barra en rojo es la cantidad total de electricidad usada ese día. De forma similar, Más Bajo / Semana Pasada es el día durante la semana anterior en el que consumió la menor cantidad de electricidad. La barra en verde es la cantidad total de electricidad usada ese día.</p>"
+            }
+          },
+          "reminders": {
+            "title": "RECORDATORIO",
+            "upcoming": "próximo evento de energía",
+            "noUpcoming": "ningún evento energético próximo"
+          },
+          "achievement": {
+            "title": "LOGRO",
+            "earn": "DINERO GANADO",
+            "modalReward": {
+              "title": "Su nivel de logro refleja qué tan activamente está participando en Eventos de Energía en comparación con otros en el programa.",
+              "level": {
+                "noAction": {
+                  "title": "NO HAY ACCIÓN"
+                },
+                "bronze": {
+                  "title": "BRONCE",
+                  "summary": "30-49% de Eventos Energéticos",
+                  "description": "Usted un usuario activo y ha participado en un 30-49% de los eventos energéticos."
+                },
+                "silver": {
+                  "title": "PLATA",
+                  "summary": "50-74% de Eventos Energéticos",
+                  "description": "Usted un buen usuario y ha participado en el 50-74% de los eventos energéticos."
+                },
+                "gold": {
+                  "title": "ORO",
+                  "summary": "75% o más Eventos de Energía",
+                  "description": "Usted un usuario superior y ha participado en un 75% o más de eventos de energía."
+                }
+              }
+            }
+          },
+          "gridEmissionsContainer": {
+            "Cont_Title": "GRID EMISSIONS",
+            "Cont_DataCont_ZipCode": "ZIP CODE: ",
+            "Cont_DataCont_Description_Text": "Higher numbers indicate the grid has limited clean energy resources and increased emissions. Reduce electricity use when this number is high.",
+            "Cont_DataCont_Description_Text_No_Data": "No grid emissions data available",
+            "Cont_TopCont_SubTitle_Name": "Grid Emissions Intensity in ",
+            "Cont_BottomCont": "Powered by WattTime",
+            "Cont_DataCont_Low": "Low",
+            "Cont_DataCont_High": "High"
+          },
+          "environmentalImpact": {
+            "title": "IMPACTO AMBIENTAL",
+            "description": "De eventos de energía",
+            "energyImpact": "Impacto Energético",
+            "emissions": "Emisiones",
+            "miles": "Manejadas/por automóvil",
+            "user": "Los suyos",
+            "community": "Comunidad",
+            "modalEnvironmentalImpact": {
+              "title": "Impacto Ambiental",
+              "description": "<p><span><i>¿Sabía que sus medidas de ahorro de energía pueden afectar directamente la calidad el aire?</i></span><p><p>Impacto Ambiental muestra sus impactos mediante Eventos de Energía y el impacto acumulativo de todos los participantes en el programa. Cada vez que cambio su consumo de energía en respuesta a un Evento de Energía, la cantidad de impacto energético se agrega a los cálculos mostrados en el tablero de Impacto Ambiental.</p><p><span>“Impacto energético”</span> es la cantidad total de energía que usted ha reducido mediante la participación en eventos. De ese número, calculamos la <span>“Reducción de Emisiones”</span>, que es el total de libras de dióxido de carbono que se han evitado gracias a sus reducciones del uso de energía. <span>“Equivalente de Millas en Automóvil”</span>, es lo que la reducción de emisiones de dióxido carbono representa en millas recorridas por un automóvil a gasolina.</p>"
+            }
+          }
+        }
+      },
+      "usagePattern": {
+        "usagePatternScreen": {
+          "title": "Patrón de uso",
+          "graph": {
+            "title": "Uso de energía",
+            "filter": {
+              "day": "Día",
+              "week": "Semana",
+              "month": "Mes",
+              "year": "Año"
+            },
+            "legend": {
+              "energyUse": "Uso de energía",
+              "highest": "MÁS ALTA",
+              "lowest": "MÁS BAJA",
+              "noData": "Datos no disponibles"
+            },
+            "usage": {
+              "highest": "MÁS ALTA",
+              "lowest": "MÁS BAJA"
+            }
+          }
+        }
+      },
+      "savingsEvents": {
+        "savingsEventsScreen": {
+          "title": "Pedido de ahorro",
+          "noEvent": {
+            "description": "No hay pedidos próximos"
+          },
+          "upcomingEvent": {
+            "title": "Se ha programado un evento de ahorro de energía el"
+          },
+          "onTimer": {
+            "title": {
+              "accept": "Evento en curso",
+              "decline": "Evento rechazado"
+            },
+            "remainingTime": "Tiempo restante"
+          },
+          "participationControl": {
+            "confirm": {
+              "accept": "Aceptar",
+              "decline": "No aceptar"
+            },
+            "accept": "Click <span>Aceptar</span>\nsi desea participar.",
+            "decline": "Click <span>No aceptar</span>\nsi no puede participar."
+          },
+          "savingIdeas": {
+            "title": "IDEAS PARA AHORRAR ENERGÍA",
+            "ideas": {
+              "lamp": {
+                "description": "LIGHTING: 10-75 W per light",
+                "suggest": {
+                  "normal": "Suggest to turn off",
+                  "loadShift": "Sugerir para activar"
+                }
+              },
+              "airCond": {
+                "description": "A/C: 600-1200 W",
+                "suggest": {
+                  "normal": "Se sugiere apagarlo",
+                  "loadShift": "Sugerir para activar"
+                }
+              },
+              "washer": {
+                "description": "WASHER/DRYER: 250-500 W",
+                "suggest": {
+                  "normal": "Suggest to delay",
+                  "loadShift": "Sugerir para usar"
+                }
+              },
+              "monitor": {
+                "description": "SCREENS: 20-150 W",
+                "suggest": {
+                  "normal": "Suggest to turn off",
+                  "loadShift": "Sugerir para activar"
+                }
+              },
+              "thermostat": {
+                "description": "SMART THERMOSTAT: 300-600 W",
+                "suggest": {
+                  "normal": "Se sugiere apagarlo",
+                  "loadShift": "Sugerir para activar"
+                }
+              },
+              "microwave": {
+                "description": "OVEN: 500 W",
+                "suggest": {
+                  "normal": "Se sugiere apagarlo",
+                  "loadShift": "Sugerir para activar"
+                }
+              },
+              "heater": {
+                "description": "HEATER: ?W",
+                "suggest": {
+                  "normal": "Se sugiere apagarlo",
+                  "loadShift": "Sugerir para activar"
+                }
+              },
+              "plug": {
+                "description": "PLUG LOAD: Varies",
+                "suggest": {
+                  "normal": "Se sugiere apagarlo",
+                  "loadShift": "Sugerir para activar"
+                }
+              },
+              "battery": {
+                "description": "BATTERY: 700-1300 W",
+                "suggest": {
+                  "normal": "Se sugiere apagarlo",
+                  "loadShift": "Sugerir para activar"
+                }
+              }
+            }
+          },
+          "modalOptOut": {
+            "title": "Por favor tómese un momento para decirnos porqué:",
+            "options": [
+              {
+                "UNAVAIL": "No estaré en casa en ese momento"
+              },
+              {
+                "UNCLEAR": "No sé qué medidas tomar"
+              },
+              {
+                "INCONV": "Too inconvenient to reduce/shift energy"
+              },
+              {
+                "TOOMANY": "Demasiados pedidos de eventos de energía."
+              },
+              {
+                "NONOTICE": "No recibí una notificación"
+              },
+              {
+                "OTHER": "Otro (Por favor especifique)"
+              }
+            ],
+            "ok": "Sí, no participaré",
+            "cancel": "No, participaré"
+          }
+        },
+        "savingsEventsHistoryScreen": {
+          "title": "Historia",
+          "events": {
+            "title": "Eventos",
+            "performanceToDate": {
+              "title": "DESEMPEÑO HASTA LA FECHA",
+              "events": "Eventos",
+              "energyImpact": "Impacto energético"
+            },
+            "noData": "Sin historial de eventos.",
+            "declined": {
+              "title": "No aceptado"
+            },
+            "pending": {
+              "title": "Pendiente"
+            },
+            "noReply": {
+              "title": "Sin respuesta"
+            }
+          },
+          "moneyEarned": {
+            "title": "Dinero ganado",
+            "performanceToDate": {
+              "title": "DESEMPEÑO HASTA LA FECHA",
+              "total": "Total",
+              "event": "Eventos",
+              "other": "Otras"
+            },
+            "noData": "Sin historial de ganancias.",
+            "enrollment": {
+              "title": "Inscripción",
+              "description": "Este incentivo se obtiene por completar con éxito la inscripción para esta cuenta."
+            },
+            "homeEnergySurvey": {
+              "title": "Encuesta de energía doméstica",
+              "description": "La encuesta de energía del hogar nos permite saber cómo usa la electricidad en su hogar."
+            },
+            "referral": {
+              "title": "Referencia",
+              "description": "Gana un bono de referencia por cada usuario que refieras que se inscriba correctamente."
+            },
+            "referralBonus": {
+              "title": "Referencia",
+              "description": "Gana un bono de referencia por cada usuario que refieras que se inscriba correctamente."
+            },
+            "event": {
+              "title": "Evento",
+              "description": "N/A"
+            },
+            "promotional": {
+              "title": "Promocional",
+              "description": "Bono de registro por única vez como parte de un evento promocional como nuestra campaña de inscripción del Earth Day."
+            },
+            "customerExperienceSurvey": {
+              "title": "Encuesta de la experiencia del cliente",
+              "description": "Gana dinero para que se escuche tu voz e influya en programas futuros."
+            },
+            "participation": {
+              "title": "Participación",
+              "description": "Este incentivo se gana trimestralmente por la participación en al menos la mitad de los eventos de energía."
+            },
+            "empty": {
+              "money": "Aún no has ganado incentivos.",
+              "request": "Aún no has recibido solicitudes de eventos."
+            }
+          },
+          "historyDetail": {
+            "menus": {
+              "quickView": "VISTA RÁPIDA",
+              "detail": "DETALLE"
+            },
+            "events": {
+              "noData": "Los datos no están disponibles todavía, por favor regrese y revise nuevamente."
+            },
+            "moneyEarned": {
+              "noData": "Aún no has ganado incentivos."
+            },
+            "graph": {
+              "title": "Energy Usage",
+              "increase": "Aumento",
+              "reduction": "Reducción",
+              "moneyEarned": "Dinero ganado",
+              "typicalDay": "Typical Day",
+              "request": "Request",
+              "legend": {
+                "typical": "Día típico",
+                "energyEvent": "Energy Event",
+                "bnaEnergyEvent": "Impacto energético fuera del periodo el pedido"
+              }
+            },
+            "modalEnergyEvent": {
+              "title": "Evento de Ahorro de Energía",
+              "description": "<p>Esta vista ofrece información sobre eventos específicos de energía.</p><p><span>La barra de “Evento de Ahorro de Energía”</span></br>Representa la electricidad que ha usado durante el evento.</p><p><span>La barra “Típica”</span></br>Representa la electricidad que usted generalmente usa ese día de la semana durante la misma hora del día, ajustada para las condiciones del tiempo.</p>"
+            }
+          }
+        }
+      },
+      "messages": {
+        "messagesScreen": {
+          "title": "Mensajes",
+          "new": "¡Nuevo",
+          "empty": "¡Todavía no tiene mensajes!"
+        },
+        "messagesDetailScreen": {
+          "title": "Mensajes",
+          "regards": "Regards",
+          "empty": "¡Todavía no tiene mensajes!"
+        }
+      },
+      "settings": {
+        "settingScreen": {
+          "title": "Configuración"
+        },
+        "account": {
+          "accountScreen": {
+            "title": "Cuenta",
+            "addPhoneNumber": "Agregar número telefónico",
+            "modalChangePhone": {
+              "title": "Teléfono SMS",
+              "empty": "Se enviara un código de seguridad de 6 dígitos vía SMS para verificar su número de móvil.",
+              "description": "Este teléfono ya está verificado. Si quiere cambiar su número de teléfono, se enviará un código de seguridad de 6 dígitos vía SMS para verificar su nuevo número.",
+              "ok": "Enviar código"
+            },
+            "modalVerifyPhone": {
+              "title": "Verificación por SMS",
+              "description": "Por favor revise sus mensajes e ingrese el código de seguridad de 6 dígitos a continuación:",
+              "ok": "Verificar",
+              "cancel": "Reenviar código"
+            },
+            "modalOTPVerified": {
+              "title": "Verificado por SMS",
+              "ok": "Cerrar"
+            },
+            "modalOTPError": {
+              "title": "Código incorrecto",
+              "description": "Por favor inténtelo de nuevo o reingrese su número de teléfono.",
+              "ok": "Reintentar",
+              "cancel": "Volver a ingresar el número de teléfono"
+            },
+            "modalOTPResent": {
+              "title": "Código reenviado",
+              "ok": "Cerrar"
+            }
+          },
+          "editPhoneScreen": {
+            "title": "Teléfono SMS"
+          }
+        },
+        "mySites": {
+          "mySitesScreen": {
+            "title": "Mis sitios",
+            "empty": "Su(s) sitio(s) estará(n) listo(s) cuando empecemos a recibir datos de su empresa de servicios públicos.",
+            "address": "Address"
+          },
+          "mySiteDetailScreen": {
+            "edit": "Cerrar sesión",
+            "program": "{{program}} Program",
+            "delete": "删除网站",
+            "modalRemoveSite": {
+              "title": "¿Está seguro?",
+              "description": "¿Realmente quiere eliminar este sitio? No se puede anular este proceso.",
+              "ok": "Eliminar",
+              "cancel": "Cancelar"
+            }
+          },
+          "editNicknameScreen": {
+            "title": "Editar el sobrenombre"
+          }
+        },
+        "otherScreen": {
+          "title": "Otro",
+          "language": "Por favor seleccione su idioma preferido"
+        },
+        "aboutScreen": {
+          "title": "Acerca de",
+          "description": "Los servicios centrales de Olivine sacan provecho de la galardonada Plataforma Olivine DER, una plataforma global de gestión de energía distribuida diseñada para reducir costos y obtener el máximo valor DER.",
+          "version": "Versión actual",
+          "terms": {
+            "title": "Condiciones de servicio",
+            "link": "https://app.olivineinc.com/Content/es/TermsOfService.html"
+          },
+          "privacy": {
+            "title": "Política de privacidad",
+            "link": "https://app.olivineinc.com/Content/es/PrivacyPolicy.html"
+          },
+          "copyright": "Copyright Olivine 2019-"
+        }
+      }
+    }
+  }
+}

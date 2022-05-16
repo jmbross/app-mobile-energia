@@ -1,0 +1,884 @@
+{
+  "common": {
+    "languages": [
+      {
+        "eng": "ENGLISH"
+      },
+      {
+        "esp": "ESPAÑOL"
+      },
+      {
+        "cn": "简体"
+      }
+    ],
+    "generalButtons": {
+      "next": "下一项",
+      "continue": "继续",
+      "noThanks": "不用了，谢谢",
+      "tryAgain": "再试一次",
+      "skip": "跳过",
+      "submit": "提交",
+      "change": "更改",
+      "remove": "删除",
+      "save": "保存",
+      "ok": "好"
+    },
+    "validations": {
+      "firstName": {
+        "title": "名",
+        "placeholder": "名"
+      },
+      "lastName": {
+        "title": "姓",
+        "placeholder": "姓"
+      },
+      "businessName": {
+        "title": "商业昵称",
+        "placeholder": "商业昵称"
+      },
+      "email": {
+        "title": "电子邮件",
+        "placeholder": "电子邮件"
+      },
+      "zipCode": {
+        "title": "邮政编码",
+        "placeholder": "邮政编码"
+      },
+      "homeNickname": {
+        "title": "家庭昵称",
+        "placeholder": "家庭昵称"
+      },
+      "businessNickname": {
+        "title": "商业昵称",
+        "placeholder": "商业昵称"
+      },
+      "siteNickname": {
+        "title": "网站昵称",
+        "placeholder": "网站昵称"
+      },
+      "utilityAccount": {
+        "title": "Utility account",
+        "placeholder": "Utility account #"
+      },
+      "phone": {
+        "title": "您的手机号 #",
+        "placeholder": "您的手机号 #"
+      },
+      "lastNameAccountHolder": {
+        "title": "姓",
+        "placeholder": "姓（账户持有人）"
+      },
+      "smsPhone": {
+        "title": "短信电话",
+        "placeholder": "短信电话"
+      },
+      "phoneNumber": {
+        "title": "电话号码",
+        "placeholder": "电话号码"
+      },
+      "password": {
+        "title": "Password",
+        "placeholder": "Password"
+      },
+      "changePassword": {
+        "title": "更改密码",
+        "placeholder": "更改密码"
+      },
+      "referralName": {
+        "title": "名字 (可选)",
+        "placeholder": "名字 (可选)"
+      },
+      "referralEmail": {
+        "title": "他(她)们的邮箱 (可选)",
+        "placeholder": "他(她)们的邮箱 (可选)"
+      },
+      "referralPhoneNumber": {
+        "title": "他(她)们的电话 (可选)",
+        "placeholder": "他(她)们的电话 (可选)"
+      },
+      "otherSpecify": {
+        "title": "请指定（可选）",
+        "placeholder": "请指定（可选）"
+      }
+    }
+  },
+  "programs": {
+    "olivine_energy": {
+      "title": "Olivine能源计划",
+      "support": {
+        "email": "ask@olivinecommunity.com"
+      },
+      "availableProgramScreen": {
+        "description": "<p>注册清洁能源生态系统，让您的家庭或小型企业加入Olivine能源计划。您的参与将支持整个加州的电网恢复力和空气清洁，有助于避免使用污染气体的火电厂。</p>\n<p><b>注册裨益</b></p>\n<p>了解您的能源使用情况以及您的节能行动产生的影响。Olivine还将帮助您找到并获得您有资格获得的奖励或折扣。</p>\n<p><b>参与福利</b></p>\n<p>无论您住在加州哪个地方，呼吸洁净的空气是每一个人的权利。在用电需求高或碳排放严重时，我们会寄发通知邀请您参与节能活动。您参与这些活动将有助于节约能源，降低您的账单金额，并且为所有加州市民支持洁净的空气。您将可通过我们的应用追踪您的参与对能源与环境产生的影响。参与这些节能活动完全是自愿行为。</p>\n<p>您的行动将有助于支持地方政府、慈善机构和非营利组织从事对抗气候变化、提倡洁净空气的工作，并能帮助低收入居民。Olivine会在您参与后捐款给洁净空气联盟：<a href='https://www.ccair.org/' target='_blank'>www.ccair.org</a></p>\n<p>免费参加，不必承担任何义务。立即注册，发挥您的影响力。 每户限一人注册。</p>\n<p>Olivine能源计划是一项Olivine社区计划™</p>",
+        "terms": "<p>我已阅读并同意 <a href='https://app.olivineinc.com/content/zh/OlivineEnergyProgramTerms.html' target='_blank'>条款和条件</a>的 Olivine 能源计划 以及<a href='https://app.olivineinc.com/content/zh/OlivineCommunityPA.html' target='_blank'>Olivine 参与协议</a></p>",
+        "more": "<p>有关更多信息，请参见 <a href='https://olivinecommunity.com' target='_blank'>计划网站</a>.</p>"
+      },
+      "connectToUtilityScreen": {
+        "information": "要继续注册，我们需要您的电力公司提供的账户信息。通过单击“连接”，您将转到至电力公司网站继续完成计划注册。",
+        "utilities": [
+          {
+            "PGE": "PG&E"
+          },
+          {
+            "SCE": "SCE"
+          },
+          {
+            "SDGE": "SDG&E"
+          }
+        ]
+      },
+      "singleSurveyScreen": {
+        "placeholder": "请选择一项",
+        "question": "您是如何得知此计划的？",
+        "code": "HEAR",
+        "answers": [
+          {
+            "referral": "有人推荐"
+          },
+          {
+            "REF-GRID": "GRID Alternatives"
+          },
+          {
+            "REF-FHA": "Fresno Housing Authority"
+          },
+          {
+            "REF-UW": "United Way"
+          },
+          {
+            "REF-CCAT": "CCAT"
+          },
+          {
+            "REP": "Local utility or representative"
+          },
+          {
+            "SM": "Social media"
+          },
+          {
+            "TELE": "Telemarketing"
+          },
+          {
+            "EMAIL": "Email"
+          },
+          {
+            "FLYER": "Flyer"
+          },
+          {
+            "EVENT": "An event"
+          },
+          {
+            "MAIL": "Postcard mailing"
+          },
+          {
+            "other": "Other"
+          }
+        ],
+        "referral_WarningText": "请在下面输入推荐人姓名和电子邮件或电话号码。"
+      },
+      "savingsEventsScreen": {
+        "ideas": ["airCond", "lamp", "washer", "monitor", "plug"]
+      }
+    },
+    "gbc": {
+      "title": "仅应用",
+      "support": {
+        "email": "ask@olivinecommunity.com"
+      },
+      "availableProgramScreen": {
+        "description": "<p>您选择现在不加入任何计划。 没关系，您仍然可以使用此应用程序查看能源使用情况，并了解未来的计划！</p><p>如果您改变了想法，请单击后退箭头，回到上一个页面注册计划。</p>",
+        "more": ""
+      },
+      "connectToUtilityScreen": {
+        "information": "要使用此应用程序，您需要连接到电力公司，查找您的账户信息和能源数据。通过单击“连接”，您将转到至您的电力公司网站，以便完成注册。",
+        "utilities": [
+          {
+            "PGE": "PG&E"
+          },
+          {
+            "SCE": "SCE"
+          }
+        ]
+      },
+      "savingsEventsScreen": {
+        "ideas": ["airCond", "lamp", "washer", "heater", "microwave"]
+      }
+    },
+    "fresno": {
+      "title": "Fresno能源计划",
+      "support": {
+        "email": "ask@fresnoenergyprogram.com"
+      },
+      "availableProgramScreen": {
+        "description": "<p>Join your community and get paid to save electricity in your home. This program is available to residents of all South-Central Fresno who live in these zip codes:</p>\n<p>93701, 93702, 93703, 93704, 93706, 93721, 93725, and 93728.</p>\n<p>You get paid for your participation in Energy Events and in surveys. This program is free and there is no commitment.</p>\n<p><b>Energy Events (Up to $50)</b></p>\n<p>Take simple actions to save energy.</p>\n<p><b>Customer Experience Survey ($30)</b></p>\n<p>Provide feedback on your participation experience.</p>\n<p>Rewards and enrollment are limited to one person per household.</p>\n<p>The Fresno Energy Program is an Olivine ClimateResponse™ Program™.</p>",
+        "terms": "<p>I have read and agree to the <a href='https://app.olivineinc.com/content/en/FresnoEnergyProgramTerms.html' target='_blank'>Terms and Conditions</a>of the Fresno Energy Program and the <a href='https://app.olivineinc.com/content/en/OlivineCommunityPA.html' target='_blank'>Olivine Participation Agreement</a></p>",
+        "more": "<p>More info available on the <a href='https://fresnoenergyprogram.com' target='_blank'>program website</a>.</p>"
+      },
+      "connectToUtilityScreen": {
+        "information": "要继续注册，我们需要您的电力公司提供的账户信息。通过单击“连接”，您将转到至电力公司网站继续完成计划注册。",
+        "utilities": [
+          {
+            "PGE": "PG&E"
+          }
+        ]
+      },
+      "singleSurveyScreen": {
+        "placeholder": "请选择一项",
+        "question": "您是如何得知此计划的？",
+        "code": "HEAR",
+        "answers": [
+          {
+            "referral": "有人推荐"
+          },
+          {
+            "REF-GRID": "GRID Alternatives"
+          },
+          {
+            "REF-FHA": "Fresno Housing Authority"
+          },
+          {
+            "REF-UW": "United Way"
+          },
+          {
+            "REF-CCAT": "CCAT"
+          },
+          {
+            "REP": "Local utility or representative"
+          },
+          {
+            "SM": "Social media"
+          },
+          {
+            "TELE": "Telemarketing"
+          },
+          {
+            "EMAIL": "Email"
+          },
+          {
+            "FLYER": "Flyer"
+          },
+          {
+            "EVENT": "An event"
+          },
+          {
+            "MAIL": "Postcard mailing"
+          },
+          {
+            "other": "Other"
+          }
+        ],
+        "referral_WarningText": "请在下面输入推荐人姓名和电子邮件或电话号码。"
+      },
+      "dashboardScreen": {
+        "pending": {
+          "earn": "推荐一人可獲得40美元奖金，上限为10。",
+          "email": {
+            "subject": "Join this program with me and earn money",
+            "body": "<p>You have been referred by your friend</p><p>{{email}} to enroll into the Fresno Energy Program! Please go to the <a href='https://app.olivinecommunity.com'>Olivine ClimateResponse™ App</a> and complete the Sign Up steps by December 31st and earn a $50 reward for enrolling + up to $250 for participation!</p><p>Questions?</p><p>Please visit our website at <a href='https://www.fresnoenergyprogram.com'>Fresno Energy Program</a></p><p>Or contact us by calling 1-866-482-8472</p><p>or by email at <a href='mailto:powerresponse@cleanpoweralliance.org'>ask@fresnoenergyprogram.com</a></p>"
+          },
+          "sms": {
+            "subject": "Join this program with me and earn money",
+            "body": "You have been referred by your friend {{email}} to enroll into the Fresno Energy Program! Please go to the Olivine ClimateResponse™ App (https://app.olivinecommunity.com) and complete the Sign Up steps by December 31st and earn a $50 reward for enrolling + up to $250 for participation!\nQuestions?\nPlease visit our website at Fresno Energy Program (https://www.fresnoenergyprogram.com/) \nOr contact us by calling 1-866-482-8472 \nor by email at ask@fresnoenergyprogram.com"
+          }
+        }
+      },
+      "savingsEventsScreen": {
+        "ideas": ["airCond", "lamp", "washer", "monitor", "plug"]
+      }
+    },
+    "scp": {
+      "title": "SCP GridSavvy Program",
+      "support": {
+        "email": "gridsavvy@sonomacleanpower.org"
+      },
+      "verificationScreen": {
+        "description": "You may be an SCP customer. Please enter the information below to verify your status and enroll in the GridSavvy program. You can find this information on your electricity bill. If you don’t know your PG&E account number, please call 1 (800) 743-5000 for assistance.",
+        "accountNumber": "Why do you need my PG&E account number?",
+        "modalAccountNumber": {
+          "title": "Attention:",
+          "description": "Sonoma Clean Power and PG&E work in partnership to bring you electricity. As an SCP customer, SCP procures the power sources for the energy you use in your home or business, while PG&E manages billing and the maintenance of the poles and wires that get that electricity to you. Thanks to public power programs like SCP, customers now have a choice to receive a cleaner mix of energy sources and keep more money in our local community.",
+          "ok": "Close"
+        }
+      },
+      "notVerifiedScreen": {
+        "description": "You cannot be verified as a SCP customer. If you believe this is in error, please call 800-743-5000 so we can help you complete enrollment."
+      },
+      "availableProgramScreen": {
+        "description": "<p>Thank you for your interest in joining Sonoma Clean Power’s GridSavvy Community. Your participation  allows Sonoma Clean Power to power more Sonoma and Mendocino county homes with clean, renewable energy while making energy savings easy for you.  This may seem  small, but together we can turn the tide on the climate crisis.</p>\n<p><b>Participation Benefits</b></p>\n<p>In times of high stress on the electricity grid, you will be asked to adjust your energy usage for a period of time, usually one to two hours. You will earn $1 for every GridSavvy Community event that you choose to participate in. Once per calendar quarter, you will have the opportunity to cash out your rewards or donate your balance to one of our local charity partners.</p>\n<p>Participation is free and completely voluntary. Sign up today and start earning!</p>",
+        "terms": "<p>I have read and agree to the <a href='https://app.olivineinc.com/content/en/SCPGridSavvyProgramTerms.html' target='_blank'>Terms and Conditions</a>of theSCP GridSavvy Program and the <a href='https://app.olivineinc.com/i/011/SonomaCleanPower/GridSavvyParticipationAgreement' target='_blank'>Participation Agreement</a></p>",
+        "more": "<p>More info available on the <a href='https://sonomacleanpower.org/programs/gridsavvy' target='_blank'>program website</a>.</p>"
+      },
+      "connectToUtilityScreen": {
+        "information": "To continue with enrollment, we need your utility account information which is provided by PG&E. By clicking ‘Connect’, you will be directed to your utility website to complete program enrollment.",
+        "utilities": [
+          {
+            "PGE": "PG&E"
+          }
+        ]
+      },
+      "singleSurveyScreen": {
+        "placeholder": "Please choose one",
+        "question": "How did you hear about this program?",
+        "code": "HEAR",
+        "answers": [
+          {
+            "referral": "From a referral"
+          },
+          {
+            "ref1": "The Climate Center"
+          },
+          {
+            "ref2": "North Coast Resource Conservation & Development Council"
+          },
+          {
+            "ref3": "Mendocino Land Trust"
+          },
+          {
+            "ref4": "CTE Foundation"
+          }
+        ],
+        "referral_WarningText": "Please enter referrer's name and email below so they can get their $20 bonus. Referral rewards available to one person per household."
+      },
+      "webStoreScreen": {
+        "title": "Visit the Web Store",
+        "description": "GridSavvy customers can earn rebates and a $5/month bill credit for purchasing smart devices like smart thermostats, EV charging stations, and heat pump water heaters and connecting them to the GridSavvy Community. You can also connect your existing smart device into the GridSavvy Community to start earning.",
+        "links": [
+          {
+            "Purchase a Device": "https://app.olivineinc.com/i/011/SonomaCleanPower/CustomerEnroll"
+          },
+          {
+            "Connect a Device": "https://app.olivineinc.com/i/011/SonomaCleanPower/CustomerEnroll?mode=byo"
+          }
+        ]
+      },
+      "dashboardScreen": {
+        "pending": {
+          "earn": "Earn a $40 referral bonus for each person, limit 10.",
+          "email": {
+            "subject": "Join this program with me and earn money",
+            "body": "<p>You have been referred by your friend</p><p>{{email}} to enroll into the Fresno Energy Program! Please go to the <a href='https://app.olivinecommunity.com'>Olivine ClimateResponse™ App</a> and complete the Sign Up steps by December 31st and earn a $50 reward for enrolling + up to $250 for participation!</p><p>Questions?</p><p>Please visit our website at <a href='https://www.fresnoenergyprogram.com'>Fresno Energy Program</a></p><p>Or contact us by calling 1-866-482-8472</p><p>or by email at <a href='mailto:powerresponse@cleanpoweralliance.org'>ask@fresnoenergyprogram.com</a></p>"
+          },
+          "sms": {
+            "subject": "Join this program with me and earn money",
+            "body": "You have been referred by your friend {{email}} to enroll into the Fresno Energy Program! Please go to the Olivine ClimateResponse™ App (https://app.olivinecommunity.com) and complete the Sign Up steps by December 31st and earn a $50 reward for enrolling + up to $250 for participation!\nQuestions?\nPlease visit our website at Fresno Energy Program (https://www.fresnoenergyprogram.com/) \nOr contact us by calling 1-866-482-8472 \nor by email at ask@fresnoenergyprogram.com"
+          }
+        }
+      },
+      "savingsEventsScreen": {
+        "ideas": ["airCond", "lamp", "washer", "monitor", "plug"]
+      }
+    }
+  },
+  "screens": {
+    "auth": {
+      "welcomeScreen": {
+        "title": "欢迎您",
+        "changeLanguage": "改变语言",
+        "getStarted": "开始吧",
+        "continue": "继续",
+        "signIn": "登录",
+        "logout": "登出",
+        "welcome": {
+          "title": "Olivine社区™",
+          "description": "免费加入Olivine社区™，并获得当地的能源计划。利用共同努力的力量来节省能源，减少污染并赚钱。",
+          "mobileApp": "对于移动应用程序用户，请确保通过单击下面的链接将应用程序下载到您的移动设备。"
+        }
+      }
+    },
+    "errorScreen": {
+      "404": {
+        "title": "Error: 404 Page Not Found",
+        "description": "You’re either misspelling the URL\nor requesting a page that’s no longer here.",
+        "goBack": "Back to dashboard"
+      },
+      "data": {
+        "title": "抱歉 ……",
+        "description": "读取页面时发生错误。请再试一次。"
+      }
+    },
+    "enrollment": {
+      "startRegisterScreen": {
+        "title": "感谢您的注册！",
+        "description": "现在，我们要问一些问题，看看是否有适合您的节能计划。"
+      },
+      "profileSetupScreen": {
+        "title": "个人资料设置"
+      },
+      "locationSetupScreen": {
+        "title": "位置设定",
+        "business": "这是一家企业",
+        "modalZipcode": {
+          "title": "请确认",
+          "description": "'{{zipcode}}'是您准确的邮政编码？",
+          "ok": "是的",
+          "cancel": "重新输入"
+        }
+      },
+      "selectUtilityScreen": {
+        "title": "Select Your Energy Provider"
+      },
+      "findProgramScreen": {
+        "title": "查询节能计划",
+        "description": "我们为您找到了至一项节能计划选。请单击下一步以了解更多信息。"
+      },
+      "modalNoPrograms": {
+        "ok": "Close",
+        "title": "",
+        "descriptionNoUtility": "We don't currently have programs available for your area.",
+        "description": "We don't currently have a program available for {{utility}} customers. Try out the Olivine ClimateResponse™  app for additional program options."
+      },
+      "verificationScreen": {
+        "title": "{{program}}验证",
+        "modalVerification": {
+          "title": "注意:",
+          "description": "跳过验证意味着您将无法获得{{program}} 计划的特殊优惠。",
+          "ok": "返回验证",
+          "cancel": "显示其他选项"
+        }
+      },
+      "notVerifiedScreen": {
+        "title": "{{program}}验证"
+      },
+      "phoneNumberScreen": {},
+      "programListScreen": {
+        "title": "好消息！您有资格加入{{program}}计划！",
+        "description": "请选择以下计划选项完成注册。",
+        "modalProgramList": {
+          "title": "注意:",
+          "description": "为了获得{{program}}计划的优惠，您必须选择一个计划选项。",
+          "ok": "选择计划",
+          "cancel": "显示其他选项"
+        }
+      },
+      "availableProgramScreen": {},
+      "connectToUtilityScreen": {
+        "title": "连接电力公司",
+        "later": "待会再做"
+      },
+      "multipleSurveyScreen": {},
+      "singleSurveyScreen": {}
+    },
+    "main": {
+      "dashboard": {
+        "dashboardScreen": {
+          "title": "仪表板",
+          "inComplete": {
+            "title": "完成电力数据的授权，开始获得奖励。"
+          },
+          "inProgress": {
+            "title": "感谢您完成注册！",
+            "description": "您的仪表数据可能需要几天时间才显示在应用程序中。请定期查看。"
+          },
+          "pending": {
+            "title": "推荐您的朋友！",
+            "shareLinkVia": "分享连结通过“",
+            "email": "电邮",
+            "sms": "短信"
+          },
+          "recentEnergyHistory": {
+            "title": "近期能耗记录",
+            "graph": {
+              "legend": {
+                "lastWeek": "上周",
+                "thisWeek": "本周"
+              }
+            },
+            "usage": {
+              "typical": "典型 {{day}}",
+              "highest": "最高/上周",
+              "lowest": "最低/上周"
+            },
+            "noData": "您的仪表数据可能需要几天时间才能出现在应用程序中。请定期查看。",
+            "modalEnergyHistory": {
+              "title": "能源记录",
+              "description": "<p><span>什么是千瓦时</span><br>千瓦时（千瓦时或1000瓦时）是电量消耗的量度，等于一小时使用某一1,000瓦的电器消耗的电力。</p><p><span>什么是常规的一天?</span><br>常规的一天，如“常规周五”，是指您通常在一周中的这一天消耗的电量。</p><p><span>为什么看不到最近两天的使用数据?</span><br>电力公司大约需要2天才能提供电表数据，因此您最近一次“本周”数据通常不包含过去2天的数据。有时还可能缺少其他一些天的数据。别担心，电力公司会在稍后提供这些数据。</p><p><span>什么是上周/最高和最低值?</span><br>上周/最高值是前一周中消电量最多的一天。红条表示当天的用电量。同样，“上周/最低值”指前一周消耗电量最少的一天。绿条表示当天的用电量。</p>"
+            }
+          },
+          "reminders": {
+            "title": "提醒",
+            "upcoming": "即将进行的能源活动",
+            "noUpcoming": "没有即将进行的能源活动"
+          },
+          "achievement": {
+            "title": "成就",
+            "earn": "赚钱",
+            "modalReward": {
+              "title": "与计划中的其他人员相比，您的成就水平反映了您在能源活动中的参与度。",
+              "level": {
+                "noAction": {
+                  "title": "无所作为"
+                },
+                "bronze": {
+                  "title": "铜牌",
+                  "summary": "30-49%",
+                  "description": "您是一位积极的参与者，已经参加了我们30％至49％的能源活动。"
+                },
+                "silver": {
+                  "title": "银牌",
+                  "summary": "50-74%",
+                  "description": "您是一位出色的参与者，已经参加了我们50％至74％的能源活动。"
+                },
+                "gold": {
+                  "title": "金牌",
+                  "summary": "75%+",
+                  "description": "您是一位顶尖的参与者，已经参加了我们75％的能源活动。"
+                }
+              }
+            }
+          },
+          "gridEmissionsContainer": {
+            "Cont_Title": "GRID EMISSIONS",
+            "Cont_DataCont_ZipCode": "ZIP CODE: ",
+            "Cont_DataCont_Description_Text": "Higher numbers indicate the grid has limited clean energy resources and increased emissions. Reduce electricity use when this number is high.",
+            "Cont_DataCont_Description_Text_No_Data": "No grid emissions data available",
+            "Cont_TopCont_SubTitle_Name": "Grid Emissions Intensity in ",
+            "Cont_BottomCont": "Powered by WattTime",
+            "Cont_DataCont_Low": "Low",
+            "Cont_DataCont_High": "High"
+          },
+          "environmentalImpact": {
+            "title": "对环境的影响",
+            "description": "从能源活动",
+            "energyImpact": "能源影响",
+            "emissions": "排放物",
+            "miles": "驾驶/每车",
+            "user": "您的",
+            "community": "社区",
+            "modalEnvironmentalImpact": {
+              "title": "环境影响",
+              "description": "<p><span><i>您是否知道您使用能源的行为会直接影响空气质量？</i></span><p><p>环境影响栏显示您通过能源活动产生的影响以及该计划所有参与者的影响。 每当您在能源活动中减少能源使用量，您节省的能源就会添加到“环境影响“仪表板上显示的数字。</p><p><span>“能源影响”</span> 是您通过参加活动而减少的用电量。根据这一数字，我们计算出 <span>“减排量”</span>，即您减少用电所避免的总二氧化碳磅数。 <span>“汽车行驶里程等量”</span>是指将您在节能活动中减少的二氧化碳排放量等同于以汽油为动力的汽车行驶的英里数。</p>"
+            }
+          }
+        }
+      },
+      "usagePattern": {
+        "usagePatternScreen": {
+          "title": "使用模式",
+          "graph": {
+            "title": "能源消耗",
+            "filter": {
+              "day": "天",
+              "week": "周",
+              "month": "月",
+              "year": "年"
+            },
+            "legend": {
+              "energyUse": "能源消耗",
+              "highest": "最高",
+              "lowest": "千瓦时",
+              "noData": "没有可用数据"
+            },
+            "usage": {
+              "highest": "最高",
+              "lowest": "千瓦时"
+            }
+          }
+        }
+      },
+      "savingsEvents": {
+        "savingsEventsScreen": {
+          "title": "节能请求",
+          "noEvent": {
+            "description": "没有即将进行的节能活动"
+          },
+          "upcomingEvent": {
+            "title": "节能活动已安排在"
+          },
+          "onTimer": {
+            "title": {
+              "accept": "正在进行的能量转移活动",
+              "decline": "已拒绝的能量转移活动"
+            },
+            "remainingTime": "剩余时间"
+          },
+          "participationControl": {
+            "confirm": {
+              "accept": "接受",
+              "decline": "拒绝"
+            },
+            "accept": "请点击 <span>接受</span>\n如果您想参加。",
+            "decline": "请点击 <span>拒绝</span>\n如果您不能参加。"
+          },
+          "savingIdeas": {
+            "title": "节能好主意",
+            "ideas": {
+              "lamp": {
+                "description": "照明：每盏10-75 W",
+                "suggest": {
+                  "normal": "建议关闭",
+                  "loadShift": "建议开启"
+                }
+              },
+              "airCond": {
+                "description": "A / C：600-1200 W",
+                "suggest": {
+                  "normal": "建议关闭",
+                  "loadShift": "建议开启"
+                }
+              },
+              "washer": {
+                "description": "洗衣机 / 干衣机：250-500 W",
+                "suggest": {
+                  "normal": "建议延迟",
+                  "loadShift": "建议使用"
+                }
+              },
+              "monitor": {
+                "description": "屏幕：20-150 W",
+                "suggest": {
+                  "normal": "建议关闭",
+                  "loadShift": "建议开启"
+                }
+              },
+              "thermostat": {
+                "description": "智能恒温器：300-600 W",
+                "suggest": {
+                  "normal": "建议关闭",
+                  "loadShift": "建议开启"
+                }
+              },
+              "microwave": {
+                "description": "烤箱：500 W",
+                "suggest": {
+                  "normal": "建议关闭",
+                  "loadShift": "建议开启"
+                }
+              },
+              "heater": {
+                "description": "暖气：？W",
+                "suggest": {
+                  "normal": "建议关闭",
+                  "loadShift": "建议开启"
+                }
+              },
+              "plug": {
+                "description": "插电负荷：变量",
+                "suggest": {
+                  "normal": "建议关闭",
+                  "loadShift": "建议开启"
+                }
+              },
+              "battery": {
+                "description": "电池：700-1300 W",
+                "suggest": {
+                  "normal": "建议关闭",
+                  "loadShift": "建议开启"
+                }
+              }
+            }
+          },
+          "modalOptOut": {
+            "title": "请您告知原因：",
+            "options": [
+              {
+                "UNAVAIL": "当时不会在家"
+              },
+              {
+                "UNCLEAR": "不知道要采取什么行动"
+              },
+              {
+                "INCONV": "太不方便减少/转移能量"
+              },
+              {
+                "TOOMANY": "太多的能源活动"
+              },
+              {
+                "NONOTICE": "没有收到通知"
+              },
+              {
+                "OTHER": "其他（请注明）"
+              }
+            ],
+            "ok": "是的，谢绝",
+            "cancel": "不，我会参加"
+          }
+        },
+        "savingsEventsHistoryScreen": {
+          "title": "历史记录",
+          "events": {
+            "title": "活动",
+            "performanceToDate": {
+              "title": "绩效统计",
+              "events": "活动",
+              "energyImpact": "能源影响"
+            },
+            "noData": "没有活动记录。",
+            "declined": {
+              "title": "拒绝"
+            },
+            "pending": {
+              "title": "待定"
+            },
+            "noReply": {
+              "title": "没有回复"
+            }
+          },
+          "moneyEarned": {
+            "title": "赚钱",
+            "performanceToDate": {
+              "title": "绩效统计",
+              "total": "全部",
+              "event": "活动",
+              "other": "其他"
+            },
+            "noData": "没有獎金记录。",
+            "enrollment": {
+              "title": "注册",
+              "description": "成功完成此帐户注册即可获得此奖金。"
+            },
+            "homeEnergySurvey": {
+              "title": "家庭能源调查",
+              "description": "家庭能源调查使我们知道您如何使用家庭用电。"
+            },
+            "referral": {
+              "title": "推荐奖金",
+              "description": "从您推荐并且成功注册的每个用户赚取推荐奖金。"
+            },
+            "referralBonus": {
+              "title": "推荐奖金",
+              "description": "从您推荐并且成功注册的每个用户赚取推荐奖金。"
+            },
+            "event": {
+              "title": "活动",
+              "description": "活动。"
+            },
+            "promotional": {
+              "title": "促销活动",
+              "description": "从促销活动，例如报名我们的“地球日“活动，获得一次性报名奖金。"
+            },
+            "customerExperienceSurvey": {
+              "title": "客户体验调查",
+              "description": "表达您的意见并影响我们未来的能源计划可赚取奖金。"
+            },
+            "participation": {
+              "title": "活动参与",
+              "description": "每季參與至少一半的能源活动才能获得此奖金。"
+            },
+            "empty": {
+              "money": "您尚未获得任何奖金。",
+              "request": "您尚未收到任何活动要求。"
+            }
+          },
+          "historyDetail": {
+            "menus": {
+              "quickView": "快速浏览",
+              "detail": "详情"
+            },
+            "events": {
+              "noData": "数据暂时不可用，请稍后再回来查询。"
+            },
+            "moneyEarned": {
+              "noData": "您尚未获得任何奖金。"
+            },
+            "graph": {
+              "title": "能源使用",
+              "increase": "增加",
+              "reduction": "节能",
+              "moneyEarned": "赚钱",
+              "typicalDay": "Typical Day",
+              "request": "Request",
+              "legend": {
+                "typical": "典型的一天",
+                "energyEvent": "Energy Event",
+                "bnaEnergyEvent": "能源活动之前/之后"
+              }
+            },
+            "modalEnergyEvent": {
+              "title": "能源活动",
+              "description": "<p>这提供特定能源活动的信息。</p><p><span>“能源活动“栏</span></br>表示您在活动期间使用的电量。</p><p><span>“常规”一栏</span></br>代表您通常在每周同一天同一时段使用的电量。该数据根据天气情况进行了调整。</p>"
+            }
+          }
+        }
+      },
+      "messages": {
+        "messagesScreen": {
+          "title": "讯息内容",
+          "new": "新增！",
+          "empty": "没有新讯息!"
+        },
+        "messagesDetailScreen": {
+          "title": "讯息内容",
+          "regards": "Regards",
+          "empty": "没有新讯息!"
+        }
+      },
+      "settings": {
+        "settingScreen": {
+          "title": "设置"
+        },
+        "account": {
+          "accountScreen": {
+            "title": "账户",
+            "addPhoneNumber": "添加电话号码",
+            "modalChangePhone": {
+              "title": "短信电话",
+              "empty": "我们将通过短信发送一个6位数的验证码来验证您的手机号码。",
+              "description": "T此电话已通过验证。如果您想更改电话号码，我们将通过短信发送一个6位数的验证码来验证您的新电话号码。",
+              "ok": "发送验证码"
+            },
+            "modalVerifyPhone": {
+              "title": "短信验证",
+              "description": "请检查短信并在下面输入6位数字的安全验证码：",
+              "ok": "取消",
+              "cancel": "验证"
+            },
+            "modalOTPVerified": {
+              "title": "已通过短信验证",
+              "ok": "关闭"
+            },
+            "modalOTPError": {
+              "title": "验证码不正确",
+              "description": "请重试或再次输入您的电话号码。",
+              "ok": "再试一次",
+              "cancel": "重新输入电话号码"
+            },
+            "modalOTPResent": {
+              "title": "验证码已重新发送",
+              "ok": "关闭"
+            }
+          },
+          "editPhoneScreen": {
+            "title": "短信电话"
+          }
+        },
+        "mySites": {
+          "mySitesScreen": {
+            "title": "我的网站",
+            "empty": "当我们从您的电力公司接收到您的数据时，您的站点将会准备好。",
+            "address": "地址"
+          },
+          "mySiteDetailScreen": {
+            "edit": "修改网站昵称",
+            "program": "{{program}} Program",
+            "delete": "删除网站",
+            "modalRemoveSite": {
+              "title": "您确定吗？",
+              "description": "您确定要删除此网站吗？此过程无法撤消。",
+              "ok": "删除",
+              "cancel": "取消"
+            }
+          },
+          "editNicknameScreen": {
+            "title": "修改网站昵称"
+          }
+        },
+        "otherScreen": {
+          "title": "其他",
+          "language": "请选择您的首选语言。"
+        },
+        "aboutScreen": {
+          "title": "关于",
+          "description": "Olivine的核心服务利用屡获殊荣的Olivine DER平台，该平台是旨在降低成本和最大化DER价值的全面分布式能源管理平台。",
+          "version": "当前版本",
+          "terms": {
+            "title": "服务条款",
+            "link": "https://app.olivineinc.com/Content/zh/TermsOfService.html"
+          },
+          "privacy": {
+            "title": "隐私政策",
+            "link": "https://app.olivineinc.com/Content/zh/PrivacyPolicy.html"
+          },
+          "copyright": "Copyright Olivine 2019-"
+        }
+      }
+    }
+  }
+}
